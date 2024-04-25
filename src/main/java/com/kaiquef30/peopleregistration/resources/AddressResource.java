@@ -109,7 +109,7 @@ public class AddressResource {
         return ResponseEntity.noContent().build();
     }
 
-    
+
     @Operation(summary = "Mark as main", description = "Mark an address as the primary address for a specific person",
             responses = {
                     @ApiResponse(
